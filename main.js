@@ -134,4 +134,12 @@ for ( let i = 0; i < posts.length; i++){
             </div>
         </div>
     </div> `;
+
+    const likeButton = document.querySelector('.likes__cta a');
+    console.log(likeButton);
+
+    likeButton.addEventListener('click', function(){
+    likeButton.classList.add('like-button--liked');
+    });
+
 }
